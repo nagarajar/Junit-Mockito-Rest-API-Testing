@@ -13,7 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-import com.ashokit.entities.Vendor;
+import com.junit.mokito.dao.VendorRespoistory;
+import com.junit.mokito.entities.Vendor;
 
 //Below Annotation is used to activate the JPA Components
 @DataJpaTest

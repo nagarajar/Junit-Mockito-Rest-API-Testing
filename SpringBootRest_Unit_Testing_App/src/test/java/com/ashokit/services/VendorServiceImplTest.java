@@ -19,9 +19,11 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import com.ashokit.dao.VendorRespoistory;
-import com.ashokit.entities.Vendor;
-import com.ashokit.exceptions.VendorNotFoundException;
+import com.junit.mokito.dao.VendorRespoistory;
+import com.junit.mokito.entities.Vendor;
+import com.junit.mokito.exceptions.VendorNotFoundException;
+import com.junit.mokito.services.VendorService;
+import com.junit.mokito.services.VendorServiceImpl;
 
 class VendorServiceImplTest {
 	
